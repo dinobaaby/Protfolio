@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.wrapper {
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 160px;
+  left: 35%;
+}

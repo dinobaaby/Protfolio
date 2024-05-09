@@ -1,0 +1,19 @@
+.menu-item {
+  width: 3rem;
+  height: 3rem;
+  padding: 10px;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 5px;
+  background-color: rgba(219, 215, 215, 0.5);
+  font-weight: 600;
+}
+
+.active {
+  color: white;
+  background-color: rgba(239, 9, 9, 0.8);
+}

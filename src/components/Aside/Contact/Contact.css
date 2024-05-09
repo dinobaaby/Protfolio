@@ -1,0 +1,49 @@
+.aside-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  margin: 20px 0px;
+  background-color: rgba(193, 190, 190, 0.5);
+}
+
+.aside-contactitem {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.aside-contactitem svg {
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 0 10px 0 0;
+}
+.contactitem-des {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.contactitem-des span,
+p {
+  margin: 0;
+}
+
+.contactitem-des > span {
+  color: black;
+  font-weight: bold;
+  text-align: left;
+}
+
+.aside-contact-cv button {
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background: red;
+  font-weight: bold;
+}

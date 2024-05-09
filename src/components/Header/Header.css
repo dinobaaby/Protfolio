@@ -1,0 +1,24 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+header h2 span {
+  color: red;
+  margin: 0 5px;
+}
+
+header > span {
+  font-size: 14px;
+  color: white;
+  font-weight: 500;
+  background-color: red;
+  padding: 8px 10px;
+  border-radius: 5px;
+}

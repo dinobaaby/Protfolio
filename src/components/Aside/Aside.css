@@ -1,0 +1,41 @@
+aside {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 30%;
+  min-height: 300px;
+  background: white;
+  padding: 15px 0px;
+}
+
+.aside-header__avatar img {
+  width: 80%;
+}
+.aside-header-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.aside-header-info h3 {
+  font-size: 16px;
+  margin: 10px 0 0 0;
+  font-weight: bold;
+}
+.aside-header-info p {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+.aside-header-social-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+}
+.aside-header-social-items svg {
+  font-size: 15px;
+  padding: 5px;
+  background: red;
+  border-radius: 5px;
+}

@@ -1,0 +1,12 @@
+.menu-header {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 80px;
+  right: 00;
+  gap: 10px;
+  width: min-content;
+  padding: 10px 15px;
+  border-radius: 3px;
+  background: white;
+}
